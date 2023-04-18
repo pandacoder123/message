@@ -1,0 +1,15 @@
+{
+  "background_color": "blue",
+  "description": "PokeEmu is a pokemon (gba) emulator!",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/fox.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "PokeEmu",
+  "short_name": "PokeEmu",
+  "start_url": "/pokeemu/index.html"
+}
