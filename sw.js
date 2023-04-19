@@ -1,4 +1,4 @@
-const cacheName = 'my-site-cache-v2;
+const cacheName = 'my-site-cache-v2';
 const urlsToCache = [
   '/message/',
   '/message/terms.html',
