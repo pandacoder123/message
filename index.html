@@ -1,41 +1,30 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="/icon/fox.png">
-    
-    <script src="index.js"  defer></script>
+    <script src="index.js" defer></script>
     <link rel="manifest" href="manifest.webmanifest">
     <meta name="theme-color" content="#ffffff">
     <title>Message Your Peers</title>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
     <style>
-        html {
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
             height: 100%;
             overflow: hidden;
-            width: 100%;
-           
-           
-            
         }
 
-        body {
+        iframe {
             width: 100%;
-            overflow: hidden;
             height: 100%;
+            border: none; /* Remove iframe border */
         }
-
-       
-    </style>  
-</head>  
-<body>  
-
-
-  
-  
-
-<iframe src="https://classroom-google-stream.glitch.me/" width="100%" height="100%"></iframe>
-</body>  
-</html>     
+    </style>
+</head>
+<body>
+    <iframe src="https://classroom-google-stream.glitch.me"></iframe>
+</body>
+</html>
